@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SINGULARE | Gráfica & Papelaria Personalizada</title>
+  <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon_io/apple-touch-icon.png">
+  <link rel="manifest" href="/favicon_io/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">✦ SINGULARE</a>
+    <ul class="nav-links">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#catalogo">Catálogo</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#orcamento" class="nav-cta">Pedir Orçamento</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MENU MOBILE -->
+  <div class="mob-menu" id="mob">
+    <button class="mob-close" onclick="closeMob()">✕</button>
+    <a href="#servicos" onclick="closeMob()">Serviços</a>
+    <a href="#catalogo" onclick="closeMob()">Catálogo</a>
+    <a href="#portfolio" onclick="closeMob()">Portfólio</a>
+    <a href="#orcamento" onclick="closeMob()" style="color:var(--te)">Orçamento</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <svg class="bg-spk" style="top:8%;left:3%;width:220px" viewBox="0 0 100 100">
+      <path d="M50 0 L54 46 L100 50 L54 54 L50 100 L46 54 L0 50 L46 46Z" fill="#3B1A6B" />
+    </svg>
+    <svg class="bg-spk" style="bottom:12%;right:5%;width:160px" viewBox="0 0 100 100">
+      <path d="M50 0 L54 46 L100 50 L54 54 L50 100 L46 54 L0 50 L46 46Z" fill="#2C6666" />
+    </svg>
+    <svg class="bg-spk" style="top:55%;left:18%;width:90px" viewBox="0 0 100 100">
+      <path d="M50 0 L54 46 L100 50 L54 54 L50 100 L46 54 L0 50 L46 46Z" fill="#5E3498" />
+    </svg>
+
+    <div class="hero-inner">
+      <div class="hero-spk">
+        <svg width="130" height="108" viewBox="0 0 130 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M65 16 L70 54 L108 58 L70 62 L65 100 L60 62 L22 58 L60 54 Z" fill="#3B1A6B" />
+          <path d="M28 10 L30.5 22 L43 24 L30.5 26 L28 38 L25.5 26 L13 24 L25.5 22 Z" fill="#3B1A6B" opacity=".55" />
+          <path d="M98 70 L100 79 L109 80.5 L100 82 L98 91 L96 82 L87 80.5 L96 79 Z" fill="none" stroke="#3B1A6B"
+            stroke-width="1.5" />
+          <circle cx="87" cy="26" r="3.5" fill="#3B1A6B" opacity=".6" />
+          <circle cx="44" cy="80" r="2.5" fill="#3B1A6B" opacity=".4" />
+        </svg>
+      </div>
+      <h1 class="hero-title">SINGULARE</h1>
+      <p class="hero-sub">Gráfica Rápida &amp; Papelaria Personalizada</p>
+      <div class="hero-line"></div>
+      <p class="hero-tag">
+        Cada peça conta uma história.<br>
+        A sua merece ser <em style="color:var(--pu2)">única.</em>
+      </p>
+      <div class="hero-ctas">
+        <a href="#orcamento" class="btn-p">Solicitar Orçamento</a>
+        <a href="#catalogo" class="btn-s">Ver Catálogo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <div class="serv-inner">
+      <div class="serv-head ai">
+        <div class="sec-label" style="justify-content:center">O que fazemos</div>
+        <h2 class="sec-title">Dois serviços,<br>uma só <em>excelência</em></h2>
+      </div>
+      <div class="serv-grid">
+        <div class="sc ai">
+          <span class="sc-icon">⚡</span>
+          <h3>Gráfica Rápida</h3>
+          <p>Agilidade sem abrir mão da qualidade. Para quem precisa de material profissional com prazo curto e
+            acabamento impecável.</p>
+          <ul>
+            <li>Cartões de Visita</li>
+            <li>Flyers &amp; Panfletos</li>
+            <li>Folders &amp; Informativos</li>
+            <li>Adesivos &amp; Etiquetas</li>
+          </ul>
+        </div>
+        <div class="sc ai">
+          <span class="sc-icon">✨</span>
+          <h3>Papelaria Personalizada</h3>
+          <p>Peças únicas criadas para refletir a sua identidade — para eventos especiais, presentes ou sua marca
+            pessoal e corporativa.</p>
+          <ul>
+            <li>Convites de Casamento &amp; Festas</li>
+            <li>Kits de Papelaria Corporativa</li>
+            <li>Agendas &amp; Cadernos Personalizados</li>
+            <li>Tags &amp; Embalagens</li>
+            <li>Identidade Visual Completa</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section id="catalogo">
+    <div class="cat-inner">
+      <div class="cat-head ai">
+        <div>
+          <div class="sec-label">Produtos</div>
+          <h2 class="sec-title">Nosso <em>Catálogo</em></h2>
+        </div>
+        <a href="#orcamento" class="btn-s" style="white-space:nowrap">Pedir Orçamento</a>
+      </div>
+      <div class="cat-grid">
+        <div class="ci ai"><span class="ci-icon">💼</span>
+          <h4>Cartão de Visita</h4>
+          <p>Couchê, laminado ou verniz localizado. Impressão off-set ou digital. Vários formatos.</p>
+        </div>
+        <div class="ci ai"><span class="ci-icon">📄</span>
+          <h4>Flyer &amp; Panfleto</h4>
+          <p>Formatos A4, A5 ou 1/3 A4. Frente e verso. Entrega expressa disponível.</p>
+        </div>
+        <div class="ci ai"><span class="ci-icon">🎀</span>
+          <h4>Convites</h4>
+          <p>Casamentos, aniversários, formaturas. Acabamentos especiais sob consulta.</p>
+        </div>
+        <div class="ci ai"><span class="ci-icon">🏷️</span>
+          <h4>Etiquetas &amp; Tags</h4>
+          <p>Personalizadas para produtos, presentes e embalagens de todos os tipos.</p>
+        </div>
+        <div class="ci ai"><span class="ci-icon">📓</span>
+          <h4>Cadernos &amp; Agendas</h4>
+          <p>Capa personalizada com seu logo. Miolo pautado, pontilhado ou em branco.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section id="portfolio">
+    <div class="port-inner">
+      <div class="port-head ai">
+        <div>
+          <div class="sec-label">Trabalhos</div>
+          <h2 class="sec-title" style="color:var(--wh)">Nosso <em style="color:var(--te3)">Portfólio</em></h2>
+        </div>
+        <a href="#orcamento">Ver todos →</a>
+      </div>
+      <div class="port-grid">
+        <div class="pi ai">
+          <div class="pimg"><span class="pimg-icon">✦</span></div>
+          <div class="povl">
+            <div class="povl-txt"><span>Kit Papelaria Noiva</span><small>Papelaria Personalizada</small></div>
+          </div>
+        </div>
+        <div class="pi ai">
+          <div class="pimg"><span class="pimg-icon">✦</span></div>
+          <div class="povl">
+            <div class="povl-txt"><span>Cartões de Visita</span><small>Gráfica Rápida</small></div>
+          </div>
+        </div>
+        <div class="pi ai">
+          <div class="pimg"><span class="pimg-icon">✦</span></div>
+          <div class="povl">
+            <div class="povl-txt"><span>Convites de Festa</span><small>Papelaria Personalizada</small></div>
+          </div>
+        </div>
+        <div class="pi ai">
+          <div class="pimg"><span class="pimg-icon">✦</span></div>
+          <div class="povl">
+            <div class="povl-txt"><span>Corporativo</span><small>Gráfica Rápida</small></div>
+          </div>
+        </div>
+        <div class="pi ai">
+          <div class="pimg"><span class="pimg-icon">✦</span></div>
+          <div class="povl">
+            <div class="povl-txt"><span>Agenda Personalizada</span><small>Papelaria Personalizada</small></div>
+          </div>
+        </div>
+      </div>
+      <p class="port-note">⚠ Substitua os placeholders pelas fotos reais dos trabalhos</p>
+    </div>
+  </section>
+
+  <!-- ORÇAMENTO -->
+  <section id="orcamento">
+    <div class="orc-inner">
+      <div class="orc-info ai">
+        <div class="sec-label">Fale Conosco</div>
+        <h2>Vamos criar algo <em>único</em> juntos</h2>
+        <p>Conte-nos sobre seu projeto e receba um orçamento personalizado. Respondemos em até 2 horas nos dias úteis.
+        </p>
+        <div class="ctc">
+          <div class="ctc-item">
+            <div class="ctc-ic">📱</div><span id="ctc-phone">(81) 99290-5611</span>
+          </div>
+          <div class="ctc-item">
+            <div class="ctc-ic">📧</div><span id="ctc-email">contato@singulare.com.br</span>
+          </div>
+          <div class="ctc-item">
+            <div class="ctc-ic">📍</div><span>Altinho, Pernambuco</span>
+          </div>
+          <div class="ctc-item">
+            <div class="ctc-ic">🕐</div><span>Seg–Sex: 8h–18h &nbsp;|&nbsp; Sáb: 8h–13h</span>
+          </div>
+        </div>
+      </div>
+      <div class="ai">
+        <div class="orc-form" id="ofrm">
+          <div class="fr">
+            <div class="fg"><label>Nome</label><input type="text" id="f-nome" placeholder="Seu nome completo"></div>
+            <div class="fg"><label>WhatsApp</label><input type="tel" id="f-wpp" placeholder="(XX) XXXXX-XXXX"></div>
+          </div>
+          <div class="fg">
+            <label>Produto desejado</label>
+            <select id="f-prod">
+              <option value="">Selecione um produto...</option>
+              <optgroup label="Gráfica Rápida">
+                <option>Cartão de Visita</option>
+                <option>Flyer / Panfleto</option>
+                <option>Folder</option>
+                <option>Etiqueta / Adesivo</option>
+              </optgroup>
+              <optgroup label="Papelaria Personalizada">
+                <option>Convite de Casamento</option>
+                <option>Convite de Festa / Aniversário</option>
+                <option>Kit Papelaria Corporativa</option>
+                <option>Caderno / Agenda Personalizada</option>
+                <option>Tags &amp; Embalagens</option>
+              </optgroup>
+              <option>Outro produto</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label>Detalhes do pedido</label>
+            <textarea id="f-det"
+              placeholder="Quantidade, prazo, cores, referências... quanto mais detalhes, melhor!"></textarea>
+          </div>
+          <div class="fsub">
+            <button class="btn-p" onclick="enviar()" style="flex:1">Enviar Solicitação</button>
+            <a class="btn-wa" id="wa-link" href="#" target="_blank">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.124.555 4.122 1.528 5.857L.057 23.882l6.169-1.617A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22.032c-1.887 0-3.65-.507-5.17-1.394l-.37-.22-3.836 1.006.982-3.762-.24-.384A9.996 9.996 0 012 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10.032-10 10.032z" />
+              </svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="success" id="suc">
+          <span class="spk-big">✦</span>
+          <h3>Solicitação Enviada!</h3>
+          <p>Entraremos em contato em breve.<br>Obrigada pela preferência! 💜</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="ft-logo">SINGULARE</span>
+    <p class="ft-sub">Gráfica Rápida &amp; Papelaria Personalizada</p>
+    <div class="ft-line"></div>
+    <ul class="ft-links">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#catalogo">Catálogo</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#orcamento">Orçamento</a></li>
+    </ul>
+    <p class="ft-copy">© 2026 Singulare · Todos os direitos reservados · Altinho, PE</p>
+    <p class="desenvolvedor">Desenvolvido por <strong>Σ Sigma Orbitek</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
