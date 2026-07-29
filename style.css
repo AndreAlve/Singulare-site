@@ -570,6 +570,11 @@ section {
     font-size: 2.5rem;
     color: rgba(255, 255, 255, .18)
 }
+.pimg img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
 
 .povl {
     position: absolute;
@@ -854,14 +859,26 @@ footer {
 }
 
 
-footer .desenvolvedor{
-    font-size: .65rem;
-    color: rgba(255, 255, 255, .18)
+.desenvolvedor{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    font-size:.75rem;
+    color:rgba(255,255,255,.45);
 }
 
-footer .desenvolvedor strong {
-    font-family: monospace;
-    color: #F5A623;
+.desenvolvedor a{
+    color:#F5A623;
+    font-weight:700;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.desenvolvedor a:hover{
+    color:#FFD166;
+    transform:translateY(-2px);
 }
 
 /* ── ANIMAÇÕES ── */
